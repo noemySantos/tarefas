@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-//# Importar o Toast
-import { ToastController, AlertController } from '@ionic/angular';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +6,4 @@ import { ToastController, AlertController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
 }
